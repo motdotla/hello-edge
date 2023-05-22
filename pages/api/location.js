@@ -3,5 +3,5 @@ export const config = {
 };
 
 export default function handler(req) {
-  return Response.json({ location: process.env.HELLO });
+  return Response.json({ location: process.env.NEXT_PUBLIC_EDGE_HELLO });
 }
